@@ -1,0 +1,53 @@
+
+.ess-table{
+
+  .el-table__header-wrapper{
+    thead{
+      font-size: 12px !important;
+      font-weight: revert !important;
+
+    }
+  }
+  .el-table th > .cell{
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    color: #5f6368;
+  }
+
+  .el-table .el-table__row{
+    &:hover{
+      background-color: #f1f3f4;
+    }
+  }
+  .hover-row{
+    &:hover{
+      background-color: #f1f3f4 !important;
+    }
+    background-color: #f1f3f4 !important;
+  }
+
+  .el-table__header-wrapper tbody td, .el-table__footer-wrapper tbody td{
+    background-color: #f8f9fa;
+  }
+
+
+  .el-table--medium th, .el-table--medium td{
+    height: 40px;
+    font-weight: 500;
+    color: #5f6368;
+    border-color: #dadce0;
+
+    &:hover{
+      background-color: #f1f3f4;
+    }
+  }
+
+
+  .el-menu-item {
+    font-size: 13px !important;
+  }
+
+
+}
+
+
